@@ -1,4 +1,7 @@
 from collections import namedtuple
+__version__ = "1.0"
+__build__ = "Latest"
+__platform__ = "Stable"
 class Comment:
 	'''Add a comment.'''
 	isComment = True

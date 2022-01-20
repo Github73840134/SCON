@@ -1,19 +1,24 @@
 # SCON
 #### **S**emicolon **C**ut **O**bject **N**otation
 A better way to dictonary  
-Version 1.0 (Latest build) Jan 20 4:12 PM
+## Build Info
+Version: 1.0  
+Build: Latest (Jan 20 2022 @ 6:21 PM EST)  
+Platform: Stable
+## Release Notes
+Inital Release
 ***
 ## Description:
 SCON (Pronounced: scone) is a versatile way for formmatting data and is loosely based on JSON, and can be used across multiple platforms.
 ## How to Use:
 \**Examples can be found in the examples directory of the repo*
 ### Supported Types:
-- str
-- int
-- bool
-- list
-- dict
-- NoneType
+- `str`
+- `int`
+- `bool`
+- `list`
+- `dict`
+- `NoneType`
 ### Comments
 ***
 #### Comment()
@@ -80,7 +85,7 @@ Gets the current directory.
 Changes the current directory.  
 ### Browse.open(path,mode="r")
 Opens the value to be read or written to.  
-**NOTE!**: Any changes made to the dictonary will not sync to the SCON file.  (This feature will be added soon.)
+**NOTE!**: Any changes made to the dictonary will not sync to the SCON file.  (This feature will be added soon in the developer release)
 * Path
   * type: str
 
@@ -112,5 +117,9 @@ sub_dictionary0{
 ```
 # You have reached the end of the documentation!
 Happy database creation!
-
+# Coming Soon
+- Micropython port
+- A more basic version of this library (sconlite)
+***
+Check out other builds such as `experimental` or `developer`
 ©2022 Github73840134

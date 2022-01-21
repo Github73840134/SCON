@@ -1,12 +1,12 @@
 # SCON
 #### **S**emicolon **C**ut **O**bject **N**otation
-A better way to dictonary  
+A better way to dictionary  
 ## Build Info
-Version: 1.0  
-Build: Latest (Jan 20 2022 @ 6:21 PM EST)  
-Platform: Stable
+Version: 1.0.1  
+Build: Latest (Jan 21 2022 @ 9:05 AM EST)  
+Platform: Stable (Nothing could go wrong... Right?)
 ## Release Notes
-Inital Release
+- Fixed space issue
 ***
 ## Description:
 SCON (Pronounced: scone) is a versatile way for formmatting data and is loosely based on JSON, and can be used across multiple platforms.
@@ -119,7 +119,6 @@ sub_dictionary0{
 Happy database creation!
 # Coming Soon
 - Micropython port
-- A more basic version of this library (sconlite)
 ***
-Check out other builds such as `experimental` or `developer`
+Check out other builds such as [`experimental`](https://github.com/Github73840134/SCON-experimental) or [`developer`](https://github.com/Github73840134/SCON-developer)
 ©2022 Github73840134
